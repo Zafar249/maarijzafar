@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maarij Zafar - Software Engineer & ML Specialist Portfolio</title>
+    <meta name="description" content="Professional portfolio of Maarij Zafar, a Software Engineer and Machine Learning Specialist from LUMS with expertise in AI/ML systems using Python, PyTorch, and TensorFlow.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Maarij Zafar - Software Engineer & ML Specialist Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing AI/ML projects and software engineering expertise">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <span class="logo-text">MZ</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="mobile-menu-btn">
+                    <button id="mobile-toggle" class="mobile-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Maarij Zafar</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    Software Engineer | Machine Learning Specialist
+                </h2>
+                <p class="hero-description">
+                    Computer Science graduate from LUMS with expertise in AI/ML systems. 
+                    Passionate about building intelligent solutions using Python, PyTorch and TensorFlow. 
+                    Certified in Machine Learning from Stanford University.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Here are some of my recent AI/ML projects that showcase my expertise in machine learning and software engineering.
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                         alt="Log Classification System screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Log Classification System</h3>
+                        <p class="project-description">
+                            Hybrid classifier using three-tiered logic for structured/unstructured data with Regex, Logistic Regression and DeepSeek R1 LLM integration
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag tech-python">Python</span>
+                            <span class="tech-tag tech-fastapi">FastAPI</span>
+                            <span class="tech-tag tech-docker">Docker</span>
+                            <span class="tech-tag tech-transformers">Transformers</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://huggingface.co/spaces/Zafar249" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Coming Soon
+                            </a>
+                            <a href="#" class="project-link project-link-code">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                         alt="Real Estate Price Prediction screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Real Estate Price Prediction</h3>
+                        <p class="project-description">
+                            Linear regression model with feature engineering, deployed via Flask interface with real-time UI
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag tech-python">Python</span>
+                            <span class="tech-tag tech-flask">Flask</span>
+                            <span class="tech-tag tech-html">HTML/CSS</span>
+                            <span class="tech-tag tech-ml">GridSearchCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://huggingface.co/spaces/Zafar249" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Coming Soon
+                            </a>
+                            <a href="#" class="project-link project-link-code">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                         alt="AI Chatbot Assistant screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">AI Chatbot Assistant</h3>
+                        <p class="project-description">
+                            Commercial AI assistant development with natural language processing capabilities and multi-language support
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag tech-pytorch">PyTorch</span>
+                            <span class="tech-tag tech-tensorflow">TensorFlow</span>
+                            <span class="tech-tag tech-nlp">NLP</span>
+                            <span class="tech-tag tech-python">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link project-link-code">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                         alt="Language Translator screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Language Translator</h3>
+                        <p class="project-description">
+                            Multi-language translation system with deep learning models for accurate cross-language communication
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag tech-pytorch">PyTorch</span>
+                            <span class="tech-tag tech-transformers">Transformers</span>
+                            <span class="tech-tag tech-python">Python</span>
+                            <span class="tech-tag tech-fastapi">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link project-link-code">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-paragraph">
+                        I'm a Computer Science graduate from LUMS Lahore with a passion for AI and Machine Learning. 
+                        Currently working as an AI Intern at CrewLogix, where I develop AI models using PyTorch and TensorFlow, 
+                        and contribute to commercial AI assistant development.
+                    </p>
+                    <p class="about-paragraph">
+                        My expertise includes building intelligent solutions with Python, creating chatbots and language translators, 
+                        and implementing deep learning models. I'm certified in Machine Learning from Stanford University and 
+                        Mathematics for ML from Imperial College London.
+                    </p>
+                    
+                    <div class="experience-section">
+                        <h3 class="subsection-title">Experience</h3>
+                        <div class="experience-item">
+                            <h4 class="experience-title">AI Intern - CrewLogix</h4>
+                            <p class="experience-description">Developing AI models, chatbots, and language translators using PyTorch/TensorFlow</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-section">
+                        <h3 class="subsection-title">Education & Certifications</h3>
+                        <div class="education-items">
+                            <div class="education-item">
+                                <p class="education-title">B.S. Computer Science - LUMS Lahore</p>
+                            </div>
+                            <div class="education-item">
+                                <p class="education-title">Machine Learning Specialization - Stanford University</p>
+                            </div>
+                            <div class="education-item">
+                                <p class="education-title">Mathematics for ML - Imperial College London</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tags-section">
+                        <span class="tag tag-blue">AI/ML Expert</span>
+                        <span class="tag tag-green">Data Scientist</span>
+                        <span class="tag tag-purple">Deep Learning</span>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <h3 class="subsection-title">Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python (Advanced)</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95" style="background-color: #3b82f6;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">PyTorch / TensorFlow</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90" style="background-color: #dc2626;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85" style="background-color: #16a34a;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL / MongoDB</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80" style="background-color: #9333ea;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Docker / FastAPI</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75" style="background-color: #0891b2;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    I'm always interested in new AI/ML opportunities and challenging projects. 
+                    Let's discuss how we can build intelligent solutions together!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span class="contact-text">zafarmaarij@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span class="contact-text">+92 3006843839</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span class="contact-text">Lahore, Pakistan</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h4 class="social-title">Let's Connect</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/maarijzafar/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://huggingface.co/spaces/Zafar249" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <i class="fas fa-robot"></i>
+                            </a>
+                            <a href="mailto:zafarmaarij@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" required>
+                            <span class="form-error" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Tell me about your project or just say hello!" required></textarea>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                        </button>
+                        
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <span class="footer-name">Maarij Zafar</span>
+                    <p class="footer-title">Software Engineer | ML Specialist</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/maarijzafar/" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://huggingface.co/spaces/Zafar249" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i class="fas fa-robot"></i>
+                    </a>
+                    <a href="mailto:zafarmaarij@gmail.com" class="footer-social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 Maarij Zafar. All rights reserved. Built with HTML, CSS, and JavaScript.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
