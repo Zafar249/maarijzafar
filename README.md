@@ -22,67 +22,6 @@ static-portfolio/
 └── assets/             # Images and icons (create as needed)
 ```
 
-## 🛠️ Setup Instructions
-
-### Option 1: Direct Browser Usage
-1. Download all files to a local folder
-2. Open `index.html` in any modern web browser
-3. No build process required!
-
-### Option 2: GitHub Pages Deployment
-1. Create a new repository on GitHub
-2. Upload all files to the repository
-3. Go to Settings > Pages
-4. Select "Deploy from a branch" and choose "main"
-5. Your site will be available at `https://yourusername.github.io/repository-name`
-
-### Option 3: Local Development Server
-```bash
-# Using Python 3
-python -m http.server 8000
-
-# Using Node.js (if you have it installed)
-npx serve .
-
-# Using PHP
-php -S localhost:8000
-```
-
-## 📝 Customization Guide
-
-### Personal Information
-Edit the following sections in `index.html`:
-
-1. **Hero Section** (lines 50-75):
-   - Name, title, and bio
-   - Contact information
-
-2. **Projects Section** (lines 90-200):
-   - Project titles, descriptions, and technologies
-   - Project images and links
-
-3. **About Section** (lines 220-320):
-   - Personal description
-   - Experience and education
-   - Skills and percentages
-
-4. **Contact Section** (lines 330-380):
-   - Contact information
-   - Social media links
-
-### Styling
-Modify `styles.css` to change:
-- Colors (search for color variables at the top)
-- Fonts (update Google Fonts import)
-- Layout and spacing
-- Animation timing
-
-### Functionality
-Update `script.js` to:
-- Add new interactive features
-- Modify form handling
-- Change animation behaviors
-
 ## 🎨 Color Scheme
 
 The website uses a modern dark theme with blue accents:
