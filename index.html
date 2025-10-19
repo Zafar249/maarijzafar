@@ -86,123 +86,176 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-description">
-                    Here are some of my recent AI/ML projects that showcase my expertise in machine learning and software engineering.
-                </p>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+                Here are some of my recent AI/ML projects that showcase my expertise in machine learning and software engineering.
+            </p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                     alt="Log Classification System screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Log Classification System</h3>
+                    <p class="project-description">
+                        Hybrid classifier using three-tiered logic for structured/unstructured data with Regex, Logistic Regression and DeepSeek R1 LLM integration
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-python">Python</span>
+                        <span class="tech-tag tech-fastapi">Regex</span>
+                        <span class="tech-tag tech-docker">Scikit-Learn</span>
+                        <span class="tech-tag tech-transformers">LLM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://huggingface.co/spaces/Zafar249/LogClassificationSystem" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
             </div>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card" data-aos="fade-up">
-                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-                         alt="Log Classification System screenshot" class="project-image">
-                    <div class="project-content">
-                        <h3 class="project-title">Log Classification System</h3>
-                        <p class="project-description">
-                            Hybrid classifier using three-tiered logic for structured/unstructured data with Regex, Logistic Regression and DeepSeek R1 LLM integration
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag tech-python">Python</span>
-                            <span class="tech-tag tech-fastapi">Regex</span>
-                            <span class="tech-tag tech-docker">Scikit-Learn</span>
-                            <span class="tech-tag tech-transformers">LLM</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://huggingface.co/spaces/Zafar249/LogClassificationSystem" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="#" class="project-link project-link-code">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                     alt="Lovable Clone screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Lovable Clone</h3>
+                    <p class="project-description">
+                        AI agent capable of autonomously reading, writing, and editing files to complete coding tasks. Built using modular tools for file operations, command execution, and state management.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-python">AI Agent</span>
+                        <span class="tech-tag tech-ml">LangGraph</span>
+                        <span class="tech-tag tech-fastapi">Prompt Engineering</span>
+                        <span class="tech-tag tech-docker">Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Project 2 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-                         alt="Real Estate Price Prediction screenshot" class="project-image">
-                    <div class="project-content">
-                        <h3 class="project-title">Real Estate Price Prediction</h3>
-                        <p class="project-description">
-                            Linear regression model with feature engineering, deployed via Gradio interface with real-time UI
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag tech-python">Hugging Face</span>
-                            <span class="tech-tag tech-flask">Pandas</span>
-                            <span class="tech-tag tech-html">Numpy</span>
-                            <span class="tech-tag tech-ml">Scikit-Learn</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://huggingface.co/spaces/Zafar249/RealEstatePrediction" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="#" class="project-link project-link-code">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/tomatoes.jpg" 
+                    alt="Tomato Disease Classification Screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Tomato Disease Classification</h3>
+                    <p class="project-description">
+                        CNN-based image classification system for identifying common diseases in tomato leaves, deployed as a user-friendly web application
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-pytorch">Keras</span>
+                        <span class="tech-tag tech-tensorflow">TensorFlow</span>
+                        <span class="tech-tag tech-nlp">Gradio</span>
+                        <span class="tech-tag tech-python">Python</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://huggingface.co/spaces/Zafar249/TomatoDiseaseClassification" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Project 3 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/tomatoes.jpg" 
-                        alt="Tomato Disease Classification Screenshot" class="project-image">
-                    <div class="project-content">
-                        <h3 class="project-title">Tomato Disease Classification</h3>
-                        <p class="project-description">
-                            CNN-based image classification system for identifying common diseases in tomato leaves, deployed as a user-friendly web application
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag tech-pytorch">Keras</span>
-                            <span class="tech-tag tech-tensorflow">TensorFlow</span>
-                            <span class="tech-tag tech-nlp">Gradio</span>
-                            <span class="tech-tag tech-python">Python</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://huggingface.co/spaces/Zafar249/TomatoDiseaseClassification" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="#" class="project-link project-link-code">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
+            <!-- Project 4 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                     alt="Food Assistance Chatbot screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Food Assistance Chatbot</h3>
+                    <p class="project-description">
+                        DialogFlow-based chatbot for assisting in food ordering and delivery, integrated with FastAPI backend and MySQL database for order tracking.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-pytorch">DialogFlow</span>
+                        <span class="tech-tag tech-transformers">MySQL</span>
+                        <span class="tech-tag tech-python">FastAPI</span>
+                        <span class="tech-tag tech-fastapi">NLP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://zafar249.github.io/Chatbot-Mira/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Project 4 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-                         alt="Language Translator screenshot" class="project-image">
-                    <div class="project-content">
-                        <h3 class="project-title">Food Assisstant Chatbot</h3>
-                        <p class="project-description">
-                            DialogFlow-based Chatbot for assissting in Food Order and Delievery, deployed with a backend and a database
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag tech-pytorch">DialogFlow</span>
-                            <span class="tech-tag tech-transformers">MySQL</span>
-                            <span class="tech-tag tech-python">FastAPI</span>
-                            <span class="tech-tag tech-fastapi">NLP</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://zafar249.github.io/Chatbot-Mira/" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="#" class="project-link project-link-code">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
+            <!-- Project 5 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+                     alt="Business Retail Q&A Tool screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Business Retail Q&A Tool</h3>
+                    <p class="project-description">
+                        Integrates LLM few-shot learning and MySQL to query product data using LangChain. Uses RAG and NLU for contextual data insights, and connects with Gemini via API.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-python">ChromaDB</span>
+                        <span class="tech-tag tech-ml">LangChain</span>
+                        <span class="tech-tag tech-database">MySQL</span>
+                        <span class="tech-tag tech-transformers">LLM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 (LLM Agent with Tavily + Pinecone) -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400"
+                     alt="LLM Agent Tavily and Pinecone screenshot" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">LLM Agent with Tavily & Pinecone</h3>
+                    <p class="project-description">
+                        Intelligent agent that performs web searches using Tavily API and applies RAG through Pinecone to answer queries from uploaded text documents.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag tech-python">Gemini</span>
+                        <span class="tech-tag tech-transformers">Tavily</span>
+                        <span class="tech-tag tech-ml">Pinecone</span>
+                        <span class="tech-tag tech-fastapi">RAG</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link project-link-code">
+                            <i class="fab fa-github"></i> Code
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="about-section">
@@ -276,7 +329,7 @@
                         
                         <div class="skill-item">
                             <div class="skill-header">
-                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-name">Machine Learning/Generative AI</span>
                                 <span class="skill-percentage">85%</span>
                             </div>
                             <div class="skill-bar">
